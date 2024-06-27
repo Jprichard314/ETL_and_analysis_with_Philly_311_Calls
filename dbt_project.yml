@@ -46,3 +46,6 @@ models:
     repeat_calls:
       +materialized: table
       schema: repeat_calls
+    personal_interest:
+      +materialized: table
+      schema: pi
